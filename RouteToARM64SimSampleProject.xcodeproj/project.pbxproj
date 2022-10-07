@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		926C8340E1BDF05AF95E018A /* Pods_RouteToARM64SimSampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB870575E74F74B097B4AE1 /* Pods_RouteToARM64SimSampleProject.framework */; };
+		D20FBB2428F075A5009703BF /* MNNExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D20FBB2228F075A5009703BF /* MNNExample.cpp */; };
+		D20FBB2728F07950009703BF /* LibyuvExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D20FBB2528F07950009703BF /* LibyuvExample.cpp */; };
 		D24E436428E32892005C006A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E436328E32892005C006A /* AppDelegate.swift */; };
 		D24E436828E32892005C006A /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E436728E32892005C006A /* MainAppViewController.swift */; };
 		D24E436B28E32892005C006A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24E436928E32892005C006A /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		4840650CD35B30A45BBA28DE /* Pods-RouteToARM64SimSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteToARM64SimSampleProject.release.xcconfig"; path = "Target Support Files/Pods-RouteToARM64SimSampleProject/Pods-RouteToARM64SimSampleProject.release.xcconfig"; sourceTree = "<group>"; };
 		5BB870575E74F74B097B4AE1 /* Pods_RouteToARM64SimSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteToARM64SimSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20FBB2228F075A5009703BF /* MNNExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MNNExample.cpp; sourceTree = "<group>"; };
+		D20FBB2528F07950009703BF /* LibyuvExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LibyuvExample.cpp; sourceTree = "<group>"; };
 		D24E436028E32892005C006A /* RouteToARM64SimSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteToARM64SimSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24E436328E32892005C006A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24E436728E32892005C006A /* MainAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				D24E436928E32892005C006A /* Main.storyboard */,
 				D24E436C28E32894005C006A /* Assets.xcassets */,
 				D24E436E28E32894005C006A /* LaunchScreen.storyboard */,
+				D20FBB2228F075A5009703BF /* MNNExample.cpp */,
+				D20FBB2528F07950009703BF /* LibyuvExample.cpp */,
 			);
 			path = RouteToARM64SimSampleProject;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20FBB2428F075A5009703BF /* MNNExample.cpp in Sources */,
+				D20FBB2728F07950009703BF /* LibyuvExample.cpp in Sources */,
 				D24E436828E32892005C006A /* MainAppViewController.swift in Sources */,
 				D24E436428E32892005C006A /* AppDelegate.swift in Sources */,
 			);

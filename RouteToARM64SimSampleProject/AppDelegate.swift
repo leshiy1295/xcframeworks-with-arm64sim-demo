@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ShareSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             .instantiateViewController(withIdentifier: "MainAppViewController")
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
+
+        ShareSDK.registPlatforms { register in
+            register?.setupVKontakte(withApplicationId: "", secretKey: "", authType: .SSO)
+            print("Hello from SharedSDK example");
+        }
+
         return true
     }
 }

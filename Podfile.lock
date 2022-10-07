@@ -1,5 +1,5 @@
 PODS:
-  - Libyuv (1703)
+  - libyuv-iOS (1.0.2)
   - MNN (1.2.0)
   - mob_sharesdk (4.4.7):
     - mob_sharesdk/ShareSDK (= 4.4.7)
@@ -9,23 +9,23 @@ PODS:
   - MOBFoundation (3.2.37)
 
 DEPENDENCIES:
-  - Libyuv (= 1703)
+  - libyuv-iOS
   - MNN
   - mob_sharesdk
 
 SPEC REPOS:
   trunk:
-    - Libyuv
+    - libyuv-iOS
     - MNN
     - mob_sharesdk
     - MOBFoundation
 
 SPEC CHECKSUMS:
-  Libyuv: 5f79ced0ee66e60a612ca97de1e6ccacd187a437
+  libyuv-iOS: 5a154ccc84ec754029886ecb607512731fe30640
   MNN: 739ff11a06c52b26ea7040ccf743088108e83c9a
   mob_sharesdk: deee7b5a5299361889c884fc6ffc7aef12397298
   MOBFoundation: 2fcfc8b48bf311ace31e99c941b70f573c88880a
 
-PODFILE CHECKSUM: 8c92184b23f43e86475f497c13392477a5253d6f
+PODFILE CHECKSUM: a3cc64cca3a0300a8a69cbac876bcfef390d8e6e
 
 COCOAPODS: 1.11.3
