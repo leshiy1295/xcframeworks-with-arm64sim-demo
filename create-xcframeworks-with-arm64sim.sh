@@ -71,6 +71,7 @@ function patch_object_to_arm64_sim() {
     cd arm64-to-sim
     swift build -c release --arch arm64 --arch x86_64 >/dev/null
     cp .build/apple/Products/Release/arm64-to-sim /usr/local/bin
+    cd ../
 
     log "Transmogrifier installation complete!"
   fi
@@ -467,4 +468,4 @@ for STATIC_LIB in $(find "${DEPENDENCIES_ROOT_DIR}" -name "*.a" | grep -vE "(.xc
   fi
 done
 
-echo "Patching static libs done"
+info "Patching static libs done"
