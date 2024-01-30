@@ -1,0 +1,39 @@
+{
+  "name": "mob_sharesdk",
+  "version": "4.4.7-xcframework",
+  "summary": "ShareSDK is the most comprehensive Social SDK in the world,which share easily with 40+ platforms.",
+  "license": "MIT",
+  "authors": {
+    "mob": "mobproducts@163.com"
+  },
+  "homepage": "http://www.mob.com",
+  "source": {
+    "http": "https://github.com/leshiy1295/xcframeworks-with-arm64sim-demo/blob/xcframeworks/xcframeworks-storage/mob_sharesdk/4.4.7-xcframework/mob_sharesdk.xcframework.zip?raw=true"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "JavaScriptCore",
+  "libraries": "sqlite3",
+  "default_subspecs": "ShareSDK",
+  "dependencies": {
+    "MOBFoundation": [
+      ">= 3.2.9"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ShareSDK",
+      "vendored_frameworks": [
+        "ShareSDK.xcframework",
+        "Support/Required/ShareSDKConnector.xcframework"
+      ],
+      "resource_bundles": {
+        "ShareSDK": [
+          "Support/Required/ShareSDK.bundle/*.lproj",
+          "Support/Required/ShareSDK.bundle/ScriptCore/*.js"
+        ]
+      }
+    }
+  ]
+}

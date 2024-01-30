@@ -1,0 +1,22 @@
+{
+  "name": "MOBFoundation",
+  "version": "3.2.37-xcframework",
+  "summary": "mob.com的公共库",
+  "license": "Copyright © 2012-2018 mob.com",
+  "authors": {
+    "Jinghuang Liu": "liujinghuang@icloud.com"
+  },
+  "homepage": "http://www.mob.com",
+  "source": {
+    "http": "https://github.com/leshiy1295/xcframeworks-with-arm64sim-demo/blob/xcframeworks/xcframeworks-storage/MOBFoundation/3.2.37-xcframework/MOBFoundation.xcframework.zip?raw=true"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "JavaScriptCore",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "vendored_frameworks": "MOBFoundation.xcframework"
+}

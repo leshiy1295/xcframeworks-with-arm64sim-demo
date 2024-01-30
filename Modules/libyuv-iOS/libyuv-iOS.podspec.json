@@ -1,0 +1,20 @@
+{
+  "name": "libyuv-iOS",
+  "version": "1.0.2-xcframework",
+  "license": "BSD",
+  "summary": "libyuv arm7 & arm64 library for iOS",
+  "homepage": "https://chromium.googlesource.com/libyuv/libyuv/",
+  "authors": "The LibYuv Project Authors",
+  "source": {
+    "http": "https://github.com/leshiy1295/xcframeworks-with-arm64sim-demo/blob/xcframeworks/xcframeworks-storage/libyuv-iOS/1.0.2-xcframework/libyuv-iOS.xcframework.zip?raw=true"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
+  "source_files": [
+    "libyuv.xcframework/ios-arm64/**/headers/**/*.h"
+  ],
+  "vendored_frameworks": "libyuv.xcframework",
+  "requires_arc": false
+}
